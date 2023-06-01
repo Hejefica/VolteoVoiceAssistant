@@ -85,7 +85,7 @@ def awake_to_mute():
 
         time.sleep(fast_transition)
 
-def awake_to_listening():
+async def awake_to_listening():
     
     
     for i in range(30):
@@ -96,7 +96,7 @@ def awake_to_listening():
 
         time.sleep(fast_transition)
 
-def listening_to_awake():
+async def listening_to_awake():
     
     i = 30 
     for j in range(30):

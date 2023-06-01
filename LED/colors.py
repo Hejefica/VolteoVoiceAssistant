@@ -119,36 +119,3 @@ def listening_to_mute():
 
         time.sleep(fast_transition)
 
-muted()
-
-time.sleep(5)
-
-mute_to_awake()
-
-time.sleep(5)
-
-awake_to_mute()
-
-time.sleep(5)
-
-mute_to_awake()
-
-time.sleep(5)
-
-awake_to_listening()
-
-time.sleep(5)
-
-listening_to_awake()
-
-time.sleep(5)
-
-awake_to_listening()
-
-time.sleep(5) 
-
-listening_to_mute()
-
-time.sleep(5)
-
-GPIO.cleanup()
